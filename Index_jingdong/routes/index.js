@@ -11,5 +11,8 @@ router.get('/getCity',function(req,res,next){
   usesql.city(req,res,next);
 
 })
+router.post('/loginCheck',function(req,res,next){
+  usesql.user.login(req,res,next);
+})
 
 module.exports = router;

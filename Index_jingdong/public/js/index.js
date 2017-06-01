@@ -26,6 +26,18 @@ $(function () {
                $sBox.removeClass('search-fixed');
        }
    });
+   $(window).click(function(){
+       var arr={"name":"晴天小猪","pwd":"123456"};
+       $.ajax({
+           type:'post',
+           url:'./loginCheck',
+           dataType:'json',
+           data:arr,
+           success:function(data){
+               alert(data);
+           }
+       });
+   })
 });
 //citylist
 function cw_hover() {
@@ -56,7 +68,7 @@ function load_cw_data() {
             $lr.empty();
             if (!data)return; 
             $.each(data, function (key, val) {
-                console.log(val.c_name);
+                //console.log(val.c_name);
                 var addHtmls = '<div class="item">' +
                     '<a href="##" class="cn" data-cid='+val.c_id+'>' + val.c_name + '</a>' +
                     '</div>';

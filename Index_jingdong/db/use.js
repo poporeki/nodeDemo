@@ -18,6 +18,17 @@ var jsonWrite = function (res, ret) {
 
 module.exports = {
     user: {
+        login:function(req,res,next){
+            pool.getConnection(function(err,conn){
+                var param=req.body;
+
+                conn.query($sql.operateUser.login,[param.name,param.pwd],function(err,result){
+                    if(result==1){
+                        console.log('登录成功')
+                    }
+                })
+            })
+        },
         add: function (req, res, next) {
             pool.getConnection(function (err, conn) {
                 var param = req.query || req.param;
@@ -57,6 +68,9 @@ module.exports = {
                     conn.release();
                 })
             })
+    },
+    getMenu:function(){
+
     }
 
 }
