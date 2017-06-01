@@ -1,0 +1,75 @@
+{
+    "data_name":"fbt",
+    "data_content":[
+        {
+            "c_name":"find",
+            "content":[
+                {
+                    "item_name":"B&O入耳式线控耳机",
+                    "item_href":"//fxhh.jd.com/#888275",
+                    "item_img_src":"./images/index/centercontent/590d2b83Ne1dff5a0.jpg",
+                    "item_text":"采用贴合双耳的设计，有效避免外界噪音，让你享受一个人的音乐世界，运用导风口设计降低双耳压力，高品质材质用全金属打造，拥有26个头气孔带来舒适却又惊艳的音效。"
+                },
+                {
+                    "item_name":"枫叶 潮流休闲鞋",
+                    "item_href":"//fxhh.jd.com/#888275",
+                    "item_img_src":"./images/index/centercontent/58f9e502N38a81e4f.jpg",
+                    "item_text":"枫叶潮流休闲鞋，采用舒适的皮革面料，鞋面轻薄透气，配合橡胶鞋底让鞋子更加轻便，行走更加轻松休闲。简约的鞋面设计，纯色调处理，让行走更加有型。潮流的圆形绑带设计，让鞋子更加时尚。"
+                },
+                {
+                    "item_name":"奥克斯壁挂式空调",
+                    "item_href":"//fxhh.jd.com/#888275",
+                    "item_img_src":"./images/index/centercontent/590dd49fN8b50d2a6.jpg",
+                    "item_text":"950立方米每秒循环风量，超强送风，挂机身材享受柜机体验，四面自动送风，上下左右均匀出风，稳稳享受快速制冷制热，品牌压缩机风驰电机强劲运行。"
+                },
+                {
+                    "item_name":"铁三角限量版监听耳机",
+                    "item_href":"//fxhh.jd.com/#888275",
+                    "item_img_src":"./images/index/centercontent/590d5b61Ne521f8df.jpg",
+                    "item_text":"TA为还原真实音乐而生，精致的墨绿色限量版更彰显其珍贵本色，作为一款千元系列少有的HiFi之作，TA可呈现更精准的细节还原和纯粹的音色，贴心可换线设计更加便利用户不同使用场景。"
+                },
+                {
+                    "item_name":"Bose有源消噪耳机",
+                    "item_href":"//fxhh.jd.com/#888275",
+                    "item_img_src":"./images/index/centercontent/57ce3942N865b7d7b.jpg",
+                    "item_text":"人性化音乐消噪耳机，给视觉的畅听带来更享受的体验。内置采用了自动消噪设计，让音乐的播放自动消除杂音，带来更加震撼心灵的透彻力量。一键控制的按钮设计，性能更强劲。"
+                },
+                {
+                    "item_name":"索尼 无线便携扬声器",
+                    "item_href":"//fxhh.jd.com/#888275",
+                    "item_img_src":"./images/index/centercontent/590d7ff7N92929201.jpg",
+                    "item_text":"方方正正的轻薄机身，时尚大气，利用蓝牙传输技术，想放哪就放哪，无线更自由，10W输出功率，侧面的被动振膜能使低音更强劲，听感更震撼，内置麦克风，连接手机可免提通话。"
+                }
+            ]
+        },
+        {
+            "c_name":"sup",
+            "content":[
+                {
+                    "item_tit":["2017新上市，这些手机值得买","夏季想优雅出街，就选浪漫蕾丝连衣裙"],
+                    "item_href":["//ypzj.jd.com/#420350","//ypzj.jd.com/#420350"],
+                    "item_img_src":["./images/index/centercontent/58f709adN45511018.jpg","./images/index/centercontent/5911bac3N5d51d2aa.jpg","./images/index/centercontent/58b68d87N27a1fcad.jpg","./images/index/centercontent/590e9869N45bdfbe3.jpg","./images/index/centercontent/590e992eNb776cf1e.jpg","./images/index/centercontent/590e97cfNbd563eb9.jpg"]
+                },
+                {
+                    "item_tit":["壁挂式静音空调，怕热星人的度夏通行证","舌尖上的浪漫，甜美红酒推荐"],
+                    "item_href":["//ypzj.jd.com/#420350","//ypzj.jd.com/#420350"],
+                    "item_img_src":["./images/index/centercontent/574c0523N7fde590c.jpg","./images/index/centercontent/582f07efN4c1d133f.jpg","./images/index/centercontent/58d21db5Ne69d9522.jpg","./images/index/centercontent/574c0523N7fde590c.jpg","./images/index/centercontent/582f07efN4c1d133f.jpg","./images/index/centercontent/58d21db5Ne69d9522.jpg"]
+                },
+                {
+                    "item_tit":["甜美T不浮夸，30岁的你也能穿出少女范","工作生活两不误，双卡双待智能手机推荐"],
+                    "item_href":["//ypzj.jd.com/#420350","//ypzj.jd.com/#420350"],
+                    "item_img_src":["./images/index/centercontent/590aeb47N22e1d5b7.jpg","./images/index/centercontent/590b0150N053ab266.jpg","./images/index/centercontent/590afecaNa446a71c.jpg","./images/index/centercontent/58f709adN45511018.jpg","./images/index/centercontent/58be10fbN53101069.jpg","./images/index/centercontent/57ff58e6Ne3a0d9c1.jpg"]
+                }
+            ]
+        },
+        {
+            "c_name":"top",
+            "content":[
+                {"item_tit":["手机通讯","除 湿 机","饮料冲调","厨房家电","大 家 电"],
+                "item_img_src":["./images/index/centercontent/1.jpg","./images/index/centercontent/2.jpg","./images/index/centercontent/3.jpg","./images/index/centercontent/4.jpg","./images/index/centercontent/5.jpg"]
+                }
+            ]
+        }
+    ]
+    
+}

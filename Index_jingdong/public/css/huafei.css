@@ -1,0 +1,109 @@
+body {
+    color: #666;
+    width: 190px;
+    position: relative;
+    height: 186px;
+    padding-left: 8px;
+    overflow: hidden;
+    margin:0;
+}
+.tab-iframe {
+    height: 21px;
+    padding: 15px 0 0 8px;
+    overflow: hidden;
+}
+.tab-item-selected {
+    float: left;
+    margin-right: 6px;
+    text-align: center;
+}
+.tab-iframe .clicked {
+    background: url(../images/index/banner/iframe-san-new.png) center 0 no-repeat;
+}
+.tab-iframe .clicked>a {
+    color: #fff;
+}
+.tab-item-selected>a {
+    position: relative;
+    display: block;
+    padding: 0 2px;
+    line-height: 16px;
+    color: #666;
+    white-space: nowrap;
+    height: 21px;
+}
+.tab-content-panel {
+    position: relative;
+    height: 146px;
+    width: 696px;
+    padding-left: 8px;
+    /*transition: left .1s;*/
+}
+.tab-content-item {
+    position: relative;
+    width: 190px;
+    float: left;
+}
+.content-wrapper {
+    height: 138px;
+    width: 180px;
+    overflow: hidden;
+    position: relative;
+    zoom: 1;
+}
+.tab-content-item .cols {
+    padding-top: 10px;
+    height: 23px;
+    line-height: 22px;
+    overflow: hidden;
+}
+.tab-content-item .cols dt,
+.ab-content-item .cols dd {
+    float: left;
+    line-height: 22px;
+    margin-right: 5px;
+}
+.input-phonenum {
+    color: #999;
+    float: left;
+    width: 83px;
+    height: 20px;
+    padding: 0 4px;
+    margin: 0;
+    line-height: 20px;
+    border: 1px solid #e7e7e7;
+}
+.tab-content-item .cols dt>p {
+    display: inline-block;
+    width: 24px;
+}
+.msg-price {
+    color: #e01222;
+}
+.select-price-money {
+    height: 22px;
+    border: 1px solid #ccc;
+}
+.btn-submit {
+    width: 85px;
+    height: 25px;
+    background: #e01222;
+    color: #fff;
+    text-align: center;
+    border: 0;
+    line-height: 22px;
+    vertical-align: middle;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.link-ad {
+    color: #527cdb;
+}
+.link-ad>i {
+    display: inline-block;
+    width: 34px;
+    height: 14px;
+    margin-right: 3px;
+    vertical-align: -3px;
+    background: url(../images/index/banner/iframe-hot.png) no-repeat;
+}

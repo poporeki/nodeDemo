@@ -1,0 +1,83 @@
+extends head
+block lkstyle
+    link(rel='stylesheet', href='../css/huafei.css')
+block title    
+    title Document
+block content
+  body
+    .tab-iframe.tab-panel
+      .tab-item-selected.tab-head-item
+        a(href='##') 话费充值
+      .tab-item-selected.tab-head-item
+        a(href='##') 流量充值
+      .tab-item-selected.tab-head-item
+        a(href='##') 套餐变更
+    .tab-iframe-content.tab-content-panel
+      .tab-content-item
+        dl.cols
+          dt
+            p 1号码
+          dd
+            input#phone_number.input-phonenum(type='text', placeholder='移动/联通/电信')
+        dl.cols
+          dt
+            p 面值
+          dd
+            select#select_price_money.select-price-money
+              option(value='10') 10元
+              option(value='20') 20元
+              option(value='30') 30元
+              option(value='40') 40元
+              option(value='50', selected='selected') 50元
+              option(value='100') 100元
+          dd
+            span#priceRecharge.msg-price ￥98.0-￥100.0
+        dl.cols
+          button.btn-submit 快速充值
+        dl.cols
+          a.link-ad(href='##')
+            i
+            |  抢8元话费券
+      .tab-content-item
+        dl.cols
+          dt
+            p 2号码
+          dd
+            input#phone_number.input-phonenum(type='text', placeholder='移动/联通/电信')
+        dl.cols
+          dt
+            p 面值
+          dd
+            select#select_price_money.select-price-money
+              option(value='10') 10元
+              option(value='20') 20元
+              option(value='30') 30元
+              option(value='40') 40元
+              option(value='50', selected='selected') 50元
+              option(value='100') 100元
+          dd
+            span#priceRecharge.msg-price ￥98.0-￥100.0
+      .tab-content-item
+        dl.cols
+          dt
+            p 3号码
+          dd
+            input#phone_number.input-phonenum(type='text', placeholder='移动/联通/电信')
+        dl.cols
+          dt
+            p 面值
+          dd
+            select#select_price_money.select-price-money
+              option(value='10') 10元
+              option(value='20') 20元
+              option(value='30') 30元
+              option(value='40') 40元
+              option(value='50', selected='selected') 50元
+              option(value='100') 100元
+          dd
+            span#priceRecharge.msg-price ￥98.0-￥100.0
+  script(src='../js/jquery-1.9.1.js')
+  script(src='../js/jquery.mytabs-0.1.js')
+  script(src='../js/jquery.days-0.1.js')
+  script.
+    $('body').anitabs();

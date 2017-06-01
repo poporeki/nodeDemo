@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body, ul, li, p, h1, h2, h3, h4, h5, h6, img, br, hr, table, tr, td, dl, dt, dd, form {
+            padding: 0;
+            margin: 0;
+            border: none;
+        }
+
+        body {
+            position: relative;
+            font: 12px/1.5 Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+        }
+
+        ul, li {
+            list-style: none;
+        }
+
+        a {
+            color: #666;
+        }
+
+        a, a:hover, a:active, a:visited {
+            text-decoration: none;
+        }
+
+        .clearfix:after {
+            display: block;
+            content: " ";
+            clear: both;
+            height: 0;
+        }
+        body {
+            color: #666;
+            width: 190px;
+            position: relative;
+            height: 186px;
+            padding-left: 8px;
+            overflow: hidden;
+        }
+        
+        .tab-iframe {
+            height: 21px;
+            padding: 15px 0 0 8px;
+            overflow: hidden;
+        }
+        .tab-item-selected{
+            float: left;
+            margin-right: 6px;
+            text-align: center;
+        }
+        .tab-iframe .clicked{
+            background:url(../images/index/banner/iframe-san-new.png)center 0 no-repeat;
+        }
+        .tab-iframe .clicked>a{
+            color:#fff;
+        }
+        .tab-item-selected>a{
+            position: relative;
+            display: block;
+            padding: 0 2px;
+            line-height: 16px;
+            color: #666;
+            white-space: nowrap;
+            height: 21px;
+        }
+        .tab-content-panel{
+            position: relative;
+            height: 146px;
+            width:696px;
+            padding-left: 8px;
+        }
+        .tab-content-item{
+            position: relative;
+            width: 190px;
+            float: left;
+        }
+        .content-wrapper{
+            height: 138px;
+            width: 180px;
+            overflow: hidden;
+            position: relative;
+            zoom: 1;
+        }
+        .tab-content-item .cols{
+            padding-top:10px;
+            height: 23px;
+            line-height: 22px;
+            overflow: hidden;
+            
+        }
+        .tab-content-item .cols dt,.ab-content-item .cols dd{
+            float:left;
+            line-height: 22px;
+            margin-right: 5px;
+        }
+        .input-phonenum{
+            color: #999;
+            float: left;
+            width: 83px;
+            height: 20px;
+            padding: 0 4px;
+            margin: 0;
+            line-height: 20px;
+            border: 1px solid #e7e7e7;
+        }
+        .tab-content-item .cols dt>p{
+            display: inline-block;
+            width: 24px;
+        }
+        .msg-price {
+            color: #e01222;
+        }
+        .select-price-money{
+            height: 22px;
+            border: 1px solid #ccc;
+        }
+        .btn-submit{
+                width: 85px;
+            height: 25px;
+            background: #e01222;
+            color: #fff;
+            text-align: center;
+            border: 0;
+            line-height:22px;
+            vertical-align: middle;
+            margin-right: 8px;
+            cursor: pointer;
+        }
+        .link-ad {
+            color: #527cdb;
+        }
+        .link-ad>i{
+            display: inline-block;
+            width: 34px;
+            height: 14px;
+            margin-right: 3px;
+            vertical-align: -3px;
+            background:url(../images/index/banner/iframe-hot.png) no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tab-iframe tab-panel">
+        <div class="tab-item-selected tab-head-item"><a href="##">话费充值</a></div>
+        <div class="tab-item-selected tab-head-item"><a href="##">流量充值</a></div>
+        <div class="tab-item-selected tab-head-item"><a href="##">套餐变更</a></div>
+    </div>
+    <div class="tab-iframe-content tab-content-panel">
+        <div class="tab-content-item">
+            <dl class="cols">
+                <dt><p>1号码</p></dt>
+                <dd><input type="text" class="input-phonenum" id="phone_number" placeholder="移动/联通/电信"></dd>
+            </dl>
+            <dl class="cols">
+                <dt><p>面值</p></dt>
+                <dd><select id="select_price_money" class="select-price-money">
+                    <option value="10">10元</option>
+                    <option value="20">20元</option>
+                    <option value="30">30元</option>
+                    <option value="40">40元</option>
+                    <option value="50" selected="selected">50元</option>
+                    <option value="100">100元</option>
+                </select></dd>
+                <dd>
+                    <span class="msg-price" id="priceRecharge">￥98.0-￥100.0</span>
+                </dd>
+            </dl>
+            <dl class="cols">
+                <button class="btn-submit">快速充值</button>
+            </dl>
+            <dl class="cols">
+                <a href="##" class="link-ad"><i></i> 抢8元话费券</a>
+            </dl>
+        </div>
+        <div class="tab-content-item">
+            <dl class="cols">
+                <dt><p>2号码</p></dt>
+                <dd><input type="text" class="input-phonenum" id="phone_number" placeholder="移动/联通/电信"></dd>
+            </dl>
+            <dl class="cols">
+                <dt><p>面值</p></dt>
+                <dd><select id="select_price_money" class="select-price-money">
+                    <option value="10">10元</option>
+                    <option value="20">20元</option>
+                    <option value="30">30元</option>
+                    <option value="40">40元</option>
+                    <option value="50" selected="selected">50元</option>
+                    <option value="100">100元</option>
+                </select></dd>
+                <dd>
+                    <span class="msg-price" id="priceRecharge">￥98.0-￥100.0</span>
+                </dd>
+            </dl>
+        </div>
+        <div class="tab-content-item">
+            <dl class="cols">
+                <dt><p>3号码</p></dt>
+                <dd><input type="text" class="input-phonenum" id="phone_number" placeholder="移动/联通/电信"></dd>
+            </dl>
+            <dl class="cols">
+                <dt><p>面值</p></dt>
+                <dd><select id="select_price_money" class="select-price-money">
+                    <option value="10">10元</option>
+                    <option value="20">20元</option>
+                    <option value="30">30元</option>
+                    <option value="40">40元</option>
+                    <option value="50" selected="selected">50元</option>
+                    <option value="100">100元</option>
+                </select></dd>
+                <dd>
+                    <span class="msg-price" id="priceRecharge">￥98.0-￥100.0</span>
+                </dd>
+            </dl>
+        </div>
+    </div>
+</body>
+<script src="../js/jquery-1.9.1.js"></script>
+<script src="../js/jquery.mytabs-0.1.js"></script>
+<script src="../js/jquery.days-0.1.js"></script>
+<script>
+    $('body').tabs();
+</script>
+</html>

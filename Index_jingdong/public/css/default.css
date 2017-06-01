@@ -1,0 +1,32 @@
+body,ul,li,p,h1,h2,h3,h4,h5,h6,img,br,hr,table,tr,td,dl,dt,dd,form{
+    padding:0;
+    margin: 0;
+    border: none;
+}
+body{
+    position: relative;
+    font: 12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+    margin: 0 auto;
+}
+img{
+    border:0;
+    vertical-align:middle;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    color: #666;
+}
+a,a:hover,a:active,a:visited{
+    text-decoration:none;
+}
+.clearfix:after{
+    display: block;
+    content:" ";
+    clear: both;
+    height: 0;
+}
+.clearfix{
+    zoom: 1;
+}
