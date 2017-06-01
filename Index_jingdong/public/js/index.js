@@ -44,7 +44,7 @@ function load_cw_data() {
 
     $.ajax({
         type: "get",
-        url: "../data/cw-data.json",
+        url: "./getCity",
         dataType: "json",
         beforeSend: function () {
            ajaxLoadingImg.start($lr);
@@ -54,13 +54,11 @@ function load_cw_data() {
         },
         success: function (data) {
             $lr.empty();
-            if (data.data_name == "cityData") {
-                console.log("成功");
-            } else { return };
-            $.each(data.data_content, function (key, val) {
-                console.log(val.city_name);
+            if (!data)return; 
+            $.each(data, function (key, val) {
+                console.log(val.c_name);
                 var addHtmls = '<div class="item">' +
-                    '<a href="##" class="cn">' + val.city_name + '</a>' +
+                    '<a href="##" class="cn" data-cid='+val.c_id+'>' + val.c_name + '</a>' +
                     '</div>';
                 $lr.append(addHtmls);
             });
