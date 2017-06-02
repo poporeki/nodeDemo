@@ -32,7 +32,7 @@ body {
 .nr {
   float: right;
 }
-.dropdown .cw {
+.city-list .cw {
   position: relative;
   overflow: hidden;
   height: 28px;
@@ -41,16 +41,16 @@ body {
   padding-left: 7px;
   padding-right: 7px;
 }
-.dropdown .cw-hover {
+.city-list .cw-hover {
   padding-bottom: 2px;
   border-color: #ccc;
   border-bottom: none;
   background-color: #fff;
 }
-.dropdown .cw-icon {
+.city-list .cw-icon {
   color: #f10215;
 }
-.dropdown .dropdown-layer {
+.city-list .dropdown-layer {
   display: none;
   position: absolute;
   top: 30px;
@@ -61,18 +61,18 @@ body {
   padding: 10px;
   z-index: 98;
 }
-.dropdown-layer .item {
+.dropdown-layer .dd-item {
   float: left;
   width: 60px;
   padding: 2px 0;
 }
-.dropdown-layer .item .cn {
+.dropdown-layer .dd-item .cn {
   display: inline-block;
   padding: 0 8px;
   height: 24px;
   line-height: 24px;
 }
-.dropdown-layer .item .cn:hover {
+.dropdown-layer .dd-item .cn:hover {
   color: #c81623;
   background-color: #f4f4f4;
 }
